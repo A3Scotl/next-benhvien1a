@@ -27,4 +27,17 @@ export const SITE_CONFIG = {
   address: "1A Lý Thường Kiệt, Phường Tân Sơn Nhất, TP.HCM",
   working_time:"T2-T6: 07:00-16:30 , T7: 07:00 - 11:30",
 } as const
-
+export const HERO_SLIDES = [
+  {
+    id: 1,
+    image: "/images/slides/slide-1.webp",
+  },
+  {
+    id: 2,
+    image: "/images/slides/slide-2.webp",
+  },
+  {
+    id: 3,
+    image: "/images/slides/slide-3.webp",
+  }
+]as const

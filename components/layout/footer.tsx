@@ -4,12 +4,12 @@ import { NAVIGATION_ITEMS, SITE_CONFIG } from "@/lib/constants"
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto px-4 py-12">
+      <div className="container md:px-30 mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              {/* <img src="/logo/logo.webp" alt="Logo" className="h-12" /> */}
+              {/* <img src="/images/logo/logo.webp" alt="Logo" className="h-12" /> */}
               <div>
                 <h3 className="font-bold text-lg">Bệnh viện 1A</h3>
                 <p className="text-sm text-gray-400">Chỉnh hình & Phục hồi chức năng</p>
