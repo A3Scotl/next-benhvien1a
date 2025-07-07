@@ -56,7 +56,7 @@ export default function DoctorsSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="py-16 lg:py-24 bg-gray-50">
+    <section ref={sectionRef} className="py-16 lg:py-24 bg-gray">
       <div className="container mx-auto px-4">
         <div
           className={`text-center mb-12 transform transition-all duration-1000 ${
