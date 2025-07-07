@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Phone, MapPin, Clock, Mail } from "lucide-react"
+import Modal from "../create-appointment/modal"
 
 interface NavItem {
     href: string
@@ -97,7 +98,10 @@ export default function Header() {
 
                         {/* CTA Button */}
                         <div className="hidden lg:flex items-center space-x-4">
-                            <Button className="bg-blue-600 hover:bg-blue-700 cursor-pointer">Đặt lịch khám</Button>
+
+                            <Button className="bg-blue-600 justify-center items-center flex hover:bg-blue-700 cursor-pointer">
+                                <Modal />
+                            </Button>
                         </div>
 
                         {/* Mobile menu button */}
@@ -122,8 +126,9 @@ export default function Header() {
                                 </Link>
                             ))}
                             <div className="pt-4">
-                                <Button className="w-full bg-blue-600 hover:bg-blue-700">Đặt lịch khám</Button>
-                            </div>
+                                <Button className="bg-blue-600 justify-center items-center flex hover:bg-blue-700 cursor-pointer">
+                                    <Modal />
+                                </Button>                            </div>
                         </nav>
                     </div>
                 )}
