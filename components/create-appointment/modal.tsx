@@ -15,6 +15,7 @@ import type { Appointment } from "@/schemas/appointment"
 import { Button } from "@/components/ui/button"
 
 import { Calendar, Stethoscope } from "lucide-react"
+import defaultTrigger from "./defautl-trigger"
 
 interface AppointmentModalProps {
   trigger?: React.ReactNode
@@ -39,12 +40,7 @@ export function AppointmentModal({ trigger, onSubmit }: AppointmentModalProps) {
     setOpen(false)
   }
 
-  const defaultTrigger = (
-    <div className="cursor-pointer flex justify-center items-center">
-      <Calendar className="w-4 h-4 mr-2" />
-      Đặt lịch khám
-    </div>
-  )
+
 
   return (
     <div className="w-full h-full">
