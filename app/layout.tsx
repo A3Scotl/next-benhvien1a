@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Website Under Construction",
-  description: "Website đang được hoàn thiện - trong thời gian chờ bạn có thể liên hệ trực tiếp",
+  description: "The website is currently under construction — feel free to contact us in the meantime.",
   keywords: ["under construction", "website", "maintenance"],
 }
 
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="vi">
+    <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   )

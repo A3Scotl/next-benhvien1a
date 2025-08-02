@@ -9,8 +9,8 @@ export default function UnderConstruction() {
           <Construction className="h-8 w-8 text-orange-500 mx-auto" />
 
           <div>
-            <h1 className="text-xl font-bold text-gray-900">🚧 Website đang được hoàn thiện</h1>
-            <p className="text-sm text-gray-600 mt-2">Trong thời gian chờ bạn có thể liên hệ trực tiếp</p>
+            <h1 className="text-xl font-bold text-gray-900">🚧 Website Under Construction</h1>
+            <p className="text-sm text-gray-600 mt-2">In the meantime, feel free to contact us directly</p>
           </div>
 
           <div className="space-y-2 pt-2">
